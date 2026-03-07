@@ -377,6 +377,7 @@ Clang-Tidy Checks
    :doc:`portability-std-allocator-const <portability/std-allocator-const>`,
    :doc:`portability-template-virtual-member-function <portability/template-virtual-member-function>`,
    :doc:`postgresql-hash-create-flags <postgresql/hash-create-flags>`,
+   :doc:`postgresql-pfree-null <postgresql/pfree-null>`,
    :doc:`readability-ambiguous-smartptr-reset-call <readability/ambiguous-smartptr-reset-call>`, "Yes"
    :doc:`readability-avoid-const-params-in-decls <readability/avoid-const-params-in-decls>`, "Yes"
    :doc:`readability-avoid-nested-conditional-operator <readability/avoid-nested-conditional-operator>`,

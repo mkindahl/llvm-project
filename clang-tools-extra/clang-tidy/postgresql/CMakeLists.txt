@@ -5,6 +5,7 @@ set(LLVM_LINK_COMPONENTS
 
 add_clang_library(clangTidyPostgreSQLModule STATIC
   HashCreateFlagsCheck.cpp
+  PfreeNullCheck.cpp
   PostgreSQLTidyModule.cpp
 
   LINK_LIBS

@@ -9,6 +9,7 @@
 #include "../ClangTidy.h"
 #include "../ClangTidyModule.h"
 #include "HashCreateFlagsCheck.h"
+#include "PfreeNullCheck.h"
 
 namespace clang::tidy {
 namespace postgresql {
@@ -19,6 +20,7 @@ public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
     CheckFactories.registerCheck<HashCreateFlagsCheck>(
         "postgresql-hash-create-flags");
+    CheckFactories.registerCheck<PfreeNullCheck>("postgresql-pfree-null");
   }
 };
 
