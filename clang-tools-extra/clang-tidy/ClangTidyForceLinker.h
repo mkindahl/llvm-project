@@ -132,6 +132,11 @@ extern volatile int PortabilityModuleAnchorSource;
 [[maybe_unused]] static int PortabilityModuleAnchorDestination =
     PortabilityModuleAnchorSource;
 
+// This anchor is used to force the linker to link the PostgreSQLModule.
+extern volatile int PostgreSQLModuleAnchorSource;
+[[maybe_unused]] static int PostgreSQLModuleAnchorDestination =
+    PostgreSQLModuleAnchorSource;
+
 // This anchor is used to force the linker to link the ReadabilityModule.
 extern volatile int ReadabilityModuleAnchorSource;
 [[maybe_unused]] static int ReadabilityModuleAnchorDestination =
